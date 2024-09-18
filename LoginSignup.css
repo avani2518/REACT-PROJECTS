@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 80px;
+    background: #fff; /* Keeping the background white for contrast */
+    padding-bottom: 30px;
+    width: 800px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    color: #A0522D; /* Mocha color for the text */
+    font-size: 48px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 6px;
+    border-bottom: 6px solid #CD5C5C; /* Blush color for the underline */
+    display: inline-block;
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #f5e6e8; /* Blush-toned background */
+    border-radius: 6px;
+}
+
+.input img {
+    margin: 0px 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #8B4513; /* Mocha color for the input text */
+    font-size: 19px;
+}
+
+.forgot-password {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #8B4513; /* Mocha color */
+    font-size: 18px;
+    text-align: center;
+    width: 83%;
+}
+
+.forgot-password span {
+    color: #CD5C5C; /* Blush color */
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #A0522D; /* Mocha color */
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray {
+    background: #f5e6e8; /* Blush-toned background */
+    color: #8B4513; /* Mocha color for the text */
+}
